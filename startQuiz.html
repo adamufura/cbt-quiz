@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/start.css" />
+    <title>Start Quiz</title>
+  </head>
+  <body>
+    <header>
+      <h3>Welcome to Quizy</h3>
+    </header>
+    <main>
+      <div class="row container-fluid">
+        <div class="col-md-6 bg-danger details">
+          <details open>
+            <summary>Read this before you start</summary>
+            <p>Read Carefully!</p>
+            <ol>
+              <li>Its Multiple Choice questions</li>
+              <li>Answer all questions</li>
+              <li>Move to next question if you cant answer</li>
+              <li>Fill the form and Start</li>
+              <li>Don't refresh the page while the quiz is going on</li>
+              <li>Good Luck</li>
+            </ol>
+          </details>
+        </div>
+        <div class="col-md-6 bg-success form">
+          <h3>Start Quiz</h3>
+          <form action="" method="post" autocomplete="off" novalidate>
+            <label for="getUsername">Enter Username</label>
+            <input
+              type="text"
+              name=""
+              id="getUsername"
+              placeholder="Enter Username"
+              required
+            />
+            <label for="getCategory">Choose Catergory</label>
+            <select name="" id="getCategory" required>
+              <option value="">Random</option>
+              <option value="19">Mathematics</option>
+              <option value="18">Computer Science</option>
+              <option value="17">Science and Nature</option>
+              <option value="21">Sports</option>
+            </select>
+            <label for="getQuestionNo">Number Of Questions</label>
+            <select name="" id="getQuestionNo">
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="25">25</option>
+              <option value="30">30</option>
+            </select>
+            <input type="submit" id="startQuiz" value="Start Quiz" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="assets/js/start.js"></script>
+  </body>
+</html>

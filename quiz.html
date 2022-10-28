@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/quiz.css" />
+    <title>Quizy</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-primary shadow-lg"
+        id="bottomNavbar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            WELCOME <span id="username">adamu_fura</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="collapsibleNavbar"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="display-5">
+                Question <span id="curQ">12</span> Of <span id="qLen">20</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 card shadow-sm py-3">
+          <img
+            src="assets/images/avatar.png"
+            alt=""
+            class="img-thumbnail w-100 avatar"
+          />
+          <h2>Details:</h2>
+          <div>
+            <ul>
+              <h3 id="category">Catergory: .......</h3>
+              <h3 id="qAnswered">Questions Answered: 0</h3>
+              <h3 id="qRemaining">Questions Remaining: 0</h3>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 questions bg-primary py-5">
+          <h2 id="question_number">Question 1:</h2>
+          <h3
+            id="question_text"
+            class="text-white"
+            style="font-size: 30px"
+          ></h3>
+          <ol type="A" id="answerOptions"></ol>
+          <div style="text-align: center">
+            <button type="button" id="prev" class="next btn btn-warning btn-lg">
+              &laquo; Prev
+            </button>
+            <button type="button" id="next" class="next btn btn-success btn-lg">
+              Next &raquo;
+            </button>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 card shadow-sm">
+          <div class="countdown">
+            <h3>Countdown</h3>
+            <hr />
+            <p class="timer display-5" id="getTimer">
+              00 <small>Mins</small> : 00 <small>Secs</small>
+            </p>
+          </div>
+          <form action="" method="post">
+            <input
+              type="button"
+              id="submitQuiz"
+              class="btn btn-danger bg-lg my-5 w-100 py-3"
+              value="Submit"
+            />
+          </form>
+          <div class="navigation">
+            <table id="questionNavigation">
+              <caption style="font-size: 24px">
+                Navigation
+              </caption>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--    modal score-->
+    <footer></footer>
+    <script src="assets/js/main.js" type="module"></script>
+    <script src="assets/js/questions.js" type="module"></script>
+    <script src="assets/js/display.js" type="module"></script>
+    <script src="assets/js/quiz.js" type="module"></script>
+    <script></script>
+  </body>
+</html>

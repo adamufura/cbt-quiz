@@ -1,0 +1,197 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does CPU stand for?",
+      "correct_answer": "Central Processing Unit",
+      "incorrect_answers": [
+        "Central Process Unit",
+        "Computer Personal Unit",
+        "Central Processor Unit"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the security vulnerability found in Bash in 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": ["Heartbleed", "Bashbug", "Stagefright"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+      "correct_answer": "Inkscape",
+      "incorrect_answers": ["Paint.NET", "GIMP", "Adobe Photoshop"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the first commerically available computer processor?",
+      "correct_answer": "Intel 4004",
+      "incorrect_answers": ["Intel 486SX", "TMS 1000", "AMD AM386"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which day did the World Wide Web go online?",
+      "correct_answer": "December 20, 1990",
+      "incorrect_answers": [
+        "December 17, 1996",
+        "November 12, 1990",
+        "November 24, 1995"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Generally, which component of a computer draws the most power?",
+      "correct_answer": "Video Card",
+      "incorrect_answers": ["Hard Drive", "Processor", "Power Supply"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which one of these is not an official development name for a Ubuntu release?",
+      "correct_answer": "Mystic Mansion",
+      "incorrect_answers": ["Trusty Tahr", "Utopic Unicorn", "Wily Werewolf"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the default theme that is installed with Windows XP?",
+      "correct_answer": "Luna",
+      "incorrect_answers": ["Neptune", "Whistler", "Bliss"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+      "correct_answer": "center",
+      "incorrect_answers": ["static", "absolute", "relative"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which computer language would you associate Django framework with?",
+      "correct_answer": "Python",
+      "incorrect_answers": ["C#", "C++", "Java"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In computing terms, typically what does CLI stand for?",
+      "correct_answer": "Command Line Interface",
+      "incorrect_answers": [
+        "Common Language Input",
+        "Control Line Interface",
+        "Common Language Interface"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which operating system was released first?",
+      "correct_answer": "Mac OS",
+      "incorrect_answers": ["Windows", "Linux", "OS/2"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What does the International System of Quantities refer 1024 bytes as?",
+      "correct_answer": "Kibibyte",
+      "incorrect_answers": ["Kylobyte", "Kilobyte", "Kelobyte"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the first Android version specifically optimized for tablets?",
+      "correct_answer": "Honeycomb",
+      "incorrect_answers": ["Eclair", "Froyo", "Marshmellow"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+      "correct_answer": "Non-impact printer",
+      "incorrect_answers": [
+        "Impact printer",
+        "Daisywheel printer",
+        "Dot matrix printer"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What does the term MIME stand for, in regards to computing?",
+      "correct_answer": "Multipurpose Internet Mail Extensions",
+      "incorrect_answers": [
+        "Mail Internet Mail Exchange",
+        "Multipurpose Interleave Mail Exchange",
+        "Mail Interleave Method Exchange"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+      "correct_answer": "Game Maker",
+      "incorrect_answers": ["Stencyl", "Construct", "Torque 2D"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+      "correct_answer": "Injection ",
+      "incorrect_answers": [
+        "Broken Authentication",
+        "Cross-Site Scripting",
+        "Insecure Direct Object References"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "According to DeMorgan&#039;s Theorem, the Boolean expression (AB)&#039; is equivalent to:",
+      "correct_answer": "A&#039; + B&#039;",
+      "incorrect_answers": [
+        "A&#039;B + B&#039;A",
+        "A&#039;B&#039;",
+        "AB&#039; + AB"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+      "correct_answer": "ADPCM Sampler",
+      "incorrect_answers": [
+        "FM Synthesizer",
+        "Programmable Sound Generator (PSG)",
+        "PCM Sampler"
+      ]
+    }
+  ]
+}

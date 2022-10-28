@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="text"></p>
+    <button id="left" style="width: 50px; background-color: gold;">PREV</button>
+    <button id="right" style="width: 50px; background-color: tomato;">
+      NEXT
+    </button>
+    <script>
+      var left = document.getElementById("left");
+      var right = document.getElementById("right");
+      var text = document.getElementById("text");
+      var messages = [
+        "dog",
+        "cat",
+        "bear",
+        "penguin",
+        "tiger",
+        "eagle",
+        "John Doe",
+      ];
+      text.textContent = messages[0];
+      function next(current, messag) {
+        var idx = messag.indexOf(current);
+        if (idx === messag.length - 1) {
+          return messag[0];
+        }
+        return messag[idx + 1];
+      }
+
+      function prev(current, messages) {
+        var idx = messages.indexOf(current);
+        if (idx === 0) {
+          return messages[messages.length - 1];
+        }
+        return messages[idx - 1];
+      }
+      left.addEventListener("click", () => {
+        text.textContent = prev(text.textContent, messages);
+      });
+
+      right.addEventListener("click", () => {
+        text.textContent = next(text.textContent, messages);
+      });
+    </script>
+    <!-- <script>
+      // if (true) {
+      //   cur = currentQuestion.nextQuestion();
+      //   return cur;
+      // } else if (false) {
+      //   cur = currentQuestion.previousQuestion();
+      //   return cur;
+      // }
+      // return cur;
+
+      // console.log(NextPrevBtn());
+      // let myArr = [
+      //   "Music Player",
+      //   "Multi Pass",
+      //   "Micro Point",
+      //   "Moving Picture",
+      // ];
+      // var points = [40, 100, 1, 5, 25, 10];
+      // console.log(points);
+      // myArr.sort(function (a, b) {
+      //   let c = 0.5 - Math.random();
+      //   console.log(c);
+      //   console.log(a);
+      //   console.log(b);
+      //   return c;
+      // });
+      // console.log(points);
+      // console.log(myArr);
+
+      let date = new Date();
+      let mins = date.getMinutes();
+      let secs = date.getSeconds();
+
+      setInterval(() => {
+        console.log(mins, " : ", secs);
+      }, 1000);
+    </script> -->
+  </body>
+</html>

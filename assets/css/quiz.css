@@ -1,0 +1,69 @@
+.left .avatar {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.questions h3 {
+  font-size: 22px;
+  font-family: monospace;
+}
+
+.questions li {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.row .right .warning {
+  background-color: red;
+}
+
+.countdown {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 6px;
+  text-align: center;
+  background-color: lightcoral;
+}
+
+.right .countdown p {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.right form input {
+  width: 99%;
+  margin: 8px 0px;
+  padding: 14px;
+  background-color: lawngreen;
+  border: none;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  border-radius: 6px;
+}
+
+.right form input:hover {
+  cursor: pointer;
+}
+
+table {
+  width: 99%;
+  height: 99%;
+}
+
+table,
+tr,
+td {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 18px;
+}
+
+table .answered {
+  background-color: lawngreen;
+  color: #ffffff;
+}
